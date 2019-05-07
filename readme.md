@@ -1,6 +1,6 @@
 npm run start
 
-https://luda-portfolio1-akmktz.c9users.io:8081
+http://localhost
 
 <%= _.template(require('./../includes/footer.html'))(data) %>
 
