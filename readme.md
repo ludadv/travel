@@ -7,4 +7,4 @@ http://localhost
 https://habr.com/post/350886/
 
 
-ctrl + c
+Stop server: ctrl + c
