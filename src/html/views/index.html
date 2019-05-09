@@ -1,55 +1,770 @@
-<!DOCTYPE html>
-<html lang="ru" dir="ltr">
+	<!DOCTYPE html>
+	<html lang="ru" dir="ltr">
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="MobileOptimized" content="320"/>
-	<meta name="HandheldFriendly" content="true"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<title>TEST</title>
-	<link rel="shortcut icon" href="favicon/favicon.ico">
-	<link rel="stylesheet" href="css/style.bundle.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-</head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="MobileOptimized" content="320"/>
+		<meta name="HandheldFriendly" content="true"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>TEST</title>
+		<link rel="shortcut icon" href="favicon/favicon.ico">
+		<link rel="stylesheet" href="css/style.bundle.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
 
-<body>
-	<div class="wrapper">
-		<div class="wrapper__top">
-			<div class="container px-0">
-				<header class="header">
-					<div class="row justify-content-between">
-						<div class="col-lg-3">
-							<div class="header__social">
-								<i class="fab fa-facebook-f"></i>
-								<i class="fab fa-staylinked"></i>
-								<i class="fab fa-instagram"></i>
-								<i class="fab fa-twitter"></i>
-								<i class="fab fa-google-plus-g"></i>
+	<body>
+		<div class="wrapper">
+            <!--WRAPPER__TOP-->
+			<div class="wrapper__top">
+				<div class="header-top">
+					<div class="container">
+						<header class="header">
+							<div class="row justify-content-between">
+								<div class="col-12 col-lg-3 col-md-4 col-sm-12">
+									<div class="social">
+										<a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="icon"><i class="fab fa-staylinked"></i></a>
+										<a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+										<a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+										<a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+									</div>
+								</div>
+								<div class="col-12 col-lg-5 col-md-8 col-sm-12">
+									<div class="row">
+										<div class="col-12 col-lg-9 col-md-9 col-sm-12 d-flex">
+                                            <div class="header__location"><i class="fas fa-map-marker-alt"></i></div>
+											<div class="header__text"> 1835 73rd Ave NE, Medina, Washington, USA</div>
+										</div>
+										<div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                                            <div class="header__register">
+                                                <a href="#login-form" class="popup-with-form header__login text-uppercase">login</a>
+                                                <div class="header__line"></div>
+                                                <a href="#register-form" class="popup-with-form header__login text-uppercase">register</a>
+                                            </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</header>
+					</div> <!--/container-->
+				</div>  <!--/header-top-->
+				<div class="container">
+					<div class="top-navigation">
+						<div class="top-block">
+							<nav class="navbar navbar-expand-lg px-0">
+								<a class="navbar-brand" href="#">
+									<div class="logo">
+										<div class="logo__title">D</div>
+										<div class="logo__subtitle">r&nbsp;eams</div>
+									</div>
+								</a>
+								<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+									<span class="fas fa-bars"></span>
+								</button>
+
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+									<div class="top-block__menu  ml-auto">
+										<ul class="navbar-nav align-items-end">
+											<li class="nav-item active">
+												<a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+											</li>
+											<li class="nav-item">
+												<a class="nav-link " href="#">tours</a>
+											</li><li class="nav-item">
+												<a class="nav-link" href="#">packag</a>
+											</li><li class="nav-item">
+												<a class="nav-link" href="#">Blog</a>
+											</li><li class="nav-item">
+												<a class="nav-link" href="#">Contact</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</nav>
+						</div>
+						<div class="tiket-block">
+							<div class="tiket-block__phone">+91 254 587 485</div>
+							<div class="tiket-block__title">Book a Ticket & Just Leave!</div>
+							<div class="tiket-block__subtitle">
+								Travel is the movement of people between relatively distant geographical locations, <br>
+								and can involve travel by foot,bicycle, automobile, train, boat, bus.
+							</div>
+							<button type="button" class="btn btn-outline-warning top-button">
+								<i class="fas fa-arrow-right"></i>Get ticket</button>
+						</div>
+						<div class="search-group">
+							<div class="row no-gutters">
+								<div class="col-3 col-lg-4">
+                                    <div class="search search__hotel"><a href="#" class="search__link">hotel</a></div>
+                                </div>
+								<div class="col-3 col-lg-4 px-1">
+                                    <div class="search search__tours"><a href="#" class="search__link">tours</a></div>
+                                </div>
+								<div class="col-3 col-lg-4">
+                                    <div class="search search__active"><a href="#" class="modal-form-link search__link">package</a></div>
+                                </div>
 							</div>
 						</div>
-						<div class="col-lg-5">
-							<div class="row">
-									<div class="col-lg-1">
-										<div class="header__location"><i class="fas fa-map-marker-alt"></i></div>
-									</div>
-									<div class="col-lg-7">
-										<div class="header__text"> 1835 73rd Ave NE, Medina, Washington, USA</div>
-									</div>
-								<div class="col-lg-2">
-									<div class="header__login text-uppercase">login</div>
+					</div> <!--/top-navigation-->
+				</div> <!--/container-->
+			</div> <!--/wrapper__top-->
+
+
+            <!--POPULER_PLACE-->
+            <div class="populer-place">
+                <div class="container">
+						<form class="populer-place__form" style="display: none">
+							<div class="form-row justify-content-around">
+								<div class="form-group col-10 col-lg-2 col-md-2 col-sm-10">
+									<label for="inputEmail4">where?</label>
+									<input type="text" class="form-control" id="inputEmail4" placeholder="Choose location">
 								</div>
-								<div class="col-lg-2">
-									<div class="header__login text-uppercase">register</div>
+								<div class="form-group col-10 col-lg-2 col-md-2 col-sm-10">
+									<label for="inputPassword4">which?</label>
+									<input type="text" class="form-control" id="inputPassword4" placeholder="Choose City">
+								</div>
+								<div class="form-group col-10 col-lg-2 col-md-2 col-sm-10">
+									<label for="inputPassword4">Check in</label>
+									<input type="text" class="form-control" id="inputPassword4" placeholder="YY-DD-MM">
+								</div>
+								<div class="form-group col-10 col-lg-2 col-md-2 col-sm-10">
+									<label for="inputPassword4">Check out</label>
+									<input type="text" class="form-control" id="inputPassword4" placeholder="YY-DD-MM">
 								</div>
 							</div>
-						</div>
+							<button type="submit" class="btn">Search</button>
+                            <div class="symbol-clos">&times;</div>
+						</form>
+					<div class="populer-place__subtitle">
+						Popular Tour Packages
 					</div>
-				</header>
-			</div>
-		</div>
-		<div class="wrapper__bottom">end</div>
-	</div>
+					<div class="populer-place__title">
+						Populer place
+					</div>
+					<div class="populer-slider">
+						<div class="multiple-items">
+							<div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-1.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text"><span>Mancity, England</span></div>
+                                </div>
+                            </div>
+							<div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-2.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text active">
+                                        <div class="center-block">
+                                            <div class="price">$500 2 days 2 night</div>
+                                            <div class="txt">Mancity, England</div>
+                                        </div>
+                                    </div>
+                                    <div class="populer-slider__arrow"></div>
+                                </div>
+							</div>
+							<div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-3.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text"><span>Mancity, England</span></div>
+                                </div>
+                            </div>
+                            <div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-1.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text"><span>Mancity, England</span></div>
+                                </div>
+                            </div>
+                            <div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-2.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text"><span>Mancity, England</span></div>
+                                </div>
+                            </div>
+                            <div class="populer-slider__item">
+                                <div class="populer-slider__box">
+                                    <img src="../img/populer-3.png" alt="" class="img-fluid">
+                                    <div class="populer-slider__text"><span>Mancity, England</span></div>
+                                </div>
+                            </div>
 
-</body>
-<script src="js/bundle.js"></script>
-</html>
+                        </div>
+					</div>
+					<div class="populer-transparent text-center">
+						<div class="populer-transparent__text">Populer place</div>
+						<div class="populer-textblock text-center">
+                            <div class="populer-textblock__title">Most Popular Travel Destinations</div>
+                            <div class="populer-textblock__txt">
+                                Love travel? Plan and book your perfect trip with expert
+                                advice, travel tips, destination information and inspiration from Lonely Planet
+                            </div>
+					    </div>
+					</div>
+                </div> <!--/container-->
+			</div> <!--/populer-place-->
+
+            <!--SWITZERLAND-->
+			<div class="switzerland">
+                <div class="switzerland__inner">
+                    <div class="single-item">
+                        <img src="img/switzerland-1.jpg"  alt="" class="img-fluid">
+                        <img src="img/switzerland-2.jpg" alt="" class="img-fluid">
+                        <img src="img/switzerland-1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="switzerland__centerblock text-center">
+						<div class="switzerland__title">Grand Switzerland</div>
+						<div class="switzerland__box">
+                            <div class="switzerland__items"><i class="fas fa-eye"></i></div>
+                            <div class="switzerland__items"><i class="fas fa-heart"></i></div>
+                            <div class="switzerland__items"><i class="fas fa-comment"></i></div>
+                            <div class="switzerland__items"><i class="fas fa-share-alt"></i></div>
+                            <div class="switzerland__items"><i class="fas fa-video"></i></div>
+						</div>
+					</div> <!--/switzerland__centerblock-->
+                </div>
+            </div> <!--/switzerland-->
+
+
+            <!--TRAVEL-->
+            <div class="travel">
+                <div class="container">
+                    <div class="travel__inner text-center">
+                        <div class="travel__title">Destinations for Honeymoon</div>
+                        <div class="travel__text">Love travel? Plan and book your perfect trip with expert
+                            advice, travel tips, destination information and inspiration from Lonely Planet
+                        </div>
+                    </div>
+                </div>
+				<!--TOURS-->
+				<div class="tours">
+					<div class="multiple-items">
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-1.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+                                        <div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-2.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+										<div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-3.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+										<div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-1.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+										<div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-2.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+										<div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tours__item">
+							<div class="row">
+								<div class="col-12 col-lg-7 col-md-12 col-sm-12">
+									<img src="img/tours-3.png" alt="" class="img-fluid">
+								</div>
+								<div class="col-12 col-lg-5 col-md-12 col-sm-12">
+									<div class="tours__info">
+										<div class="tours__title">Switzerland</div>
+										<div class="tours__price">$560</div>
+										<div class="tours__inner d-none d-lg-block">
+											<div class="tours__time">
+												<i class="far fa-clock"></i>
+												<div class="tours__txt">2 days 2night</div>
+											</div>
+											<div class="tours__text">
+												There are a few very, very fine strands of PLA
+											</div>
+										</div>
+										<div class="tours__rating">
+											<div class="rating">
+												<input type="radio" name="rating" value="5" id="5"><label for="5">&#9734;</label>
+												<input type="radio" name="rating" value="4" id="4"><label for="4">&#9734;</label>
+												<input type="radio" name="rating" value="3" id="3"><label for="3">&#9734;</label>
+												<input type="radio" name="rating" value="2" id="2"><label for="2">&#9734;</label>
+												<input type="radio" name="rating" value="1" id="1"><label for="1">&#9734;</label>
+											</div>
+										</div>
+										<div class="tours__details">MORE DETAILS</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div> <!--/MULTIPLE-ITEMS-->
+				</div> <!--/TOURS-->
+            </div> <!--/TRAVEL-->
+            <div class="holiday">
+                <div class="holiday__box">
+                    <div class="container">
+                        <div class="holiday__inner">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+                                    <div class="holiday__content">
+										<div class="holiday__subtitle">
+											<span class="holiday__discount">50<sup>%</sup></span>
+											OFF Discount 10-30% OFF
+										</div>
+										<div class="holiday__title">Best Holiday Packages</div>
+										<div class="holiday__text">Find your ideal holiday package whether you're travelling
+											in Australia or around the World. Book Flights & Accommodation packages in one
+											place with Escape Travel.
+										</div>
+										<a href="#" class="btn__more">read more</a>
+                            		</div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-12">
+									<div class="single-item">
+										<div class="holiday__slider"><img src="../img/holiday-foto.png" alt="" class="img-fluid"></div>
+										<div class="holiday__slider"><img src="../img/holiday-foto.png" alt="" class="img-fluid"></div>
+										<div class="holiday__slider"><img src="../img/holiday-foto.png" alt="" class="img-fluid"></div>
+									</div>
+								</div>
+                            </div><!--/row-->
+                        </div> <!--/holiday-inner-->
+                    </div> <!--/container-->
+                </div>
+                <div class="proposition text-center">
+                    <div class="container">
+                        <h2 class="proposition__title">30% Discount, stock limited</h2>
+                        <div class="proposition__text mx-auto">
+                            The world's largest student and youth travel agency. Find cheap
+                            flights, tours, Spring Break packages and exclusive travel deals for studentsTake
+                            full advantage of privileged discount rates.
+                        </div>
+                        <button type="button" class="btn btn-outline-warning top-button btn__ticket">
+                            <i class="fas fa-arrow-right"></i>Get ticket</button>
+                        <div class="offer">
+                            <div class="row">
+                                <div class="col-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="offer__time offer--yellow">364 </div>
+                                    <div class="offer__days offer--yellow">Days</div>
+                                </div>
+                                <div class="col-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="offer__time offer--red">23</div>
+                                    <div class="offer__days offer--red">Hours</div>
+                                </div>
+                                <div class="col-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="offer__time offer--green">59</div>
+                                    <div class="offer__days offer--green"><div class="text-capitalize">Minutes</div></div>
+                                </div>
+                                <div class="col-3 col-lg-3 col-md-3 col-sm-6">
+                                    <div class="offer__time offer--black">59</div>
+                                    <div class="offer__days offer--black"><div class="text-capitalize">Second</div></div>
+                                </div>
+
+                            </div> <!--/row-->
+                        </div> <!--/offer-->
+                        <div class="travel-slider">
+                            <div class="single-item">
+                                <div class="row">
+                                    <div class="travel-slider__inner">
+                                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/proposition-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <div class="travel-slider__info">
+                                        <div class="travel-slider__title">Italy (Rome)</div>
+                                        <div class="travel-slider__text"><i class="far fa-check-square"></i>3 Days 2 Night</div>
+                                        <div class="travel-slider__text"><i class="far fa-check-square"></i>Visit most 4 populer place</div>
+                                        <div class="travel-slider__price">$1500</div>
+                                        <button type="submit" class="btn vertical-btn">&rarr;Get ticket</button>
+                                    </div>
+                                        </div>
+                                    </div> <!--/travel-slider__inner-->
+                                </div> <!--/row-->
+                                <div class="row">
+                                    <div class="travel-slider__inner">
+                                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <img src="img/proposition-1.png" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <div class="travel-slider__info">
+                                        <div class="travel-slider__title">Italy (Rome)</div>
+                                        <div class="travel-slider__text"><i class="far fa-check-square"></i>3 Days 2 Night</div>
+                                        <div class="travel-slider__text"><i class="far fa-check-square"></i>Visit most 4 populer place</div>
+                                        <div class="travel-slider__price">$1500</div>
+                                        <button type="submit" class="btn vertical-btn">&rarr;Get ticket</button>
+                                    </div>
+                                        </div>
+                                    </div> <!--/travel-slider__inner-->
+                                </div> <!--/row-->
+                            </div> <!--/single-item-->
+                        </div> <!--/travel-slider-->
+                    </div> <!--/container-->
+                </div> <!--/proposition-->
+            </div><!--/holiday-->
+			<div class="newsletter">
+				<div class="container">
+					<div class="newsletter__img">
+						<img src="img/newsletter.png" class="img-fluid" alt="">
+						<div class="newsletter__form">
+                            <div class="newsletter__title">It’s a big deal!</div>
+                            <div class="newsletter__text">subscribe our news letter</div>
+							<form>
+								<div class="form-group">
+									<label for="exampleInputEmail1"></label>
+									<input type="email" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+									<button type="submit" class="btn btn-dark mb-2">Submit</button>
+								</div>
+							</form>
+						</div>
+                        <div class="newsletter__video">
+                            <div class="embed-responsive embed-responsive-21by9">
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/MlENsA9CGjc"
+                                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+                                    picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+					</div> <!--/newsletter__img-->
+				</div> <!--/container-->
+			</div> <!--newsletter-->
+
+
+            <div class="wishes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div class="wishes__box">
+                                <img src="img/wishes-1.png" class="img-fluid" alt="">
+                                <div class="wishes__textbox">
+                                    <div class="wishes__inner">
+                                        <div>29 February</div>
+                                        <div>by admin</div>
+                                    </div>
+                                    <div class="wishes__title">Haere's how to get the most out  of a Liverpool city!</div>
+                                    <div class="wishes__text">Travel is the movement of people between relatively distant
+                                        geographical locations, and can involve travel by foot.
+                                    </div>
+                                    <div class="wishes__icons">
+                                        <div class="wishes__item wishes_comment">
+                                            <i class="far fa-comment"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_like">
+                                            <i class="far fa-heart"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_repost">
+                                            <i class="fas fa-share-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div class="wishes__box">
+                                <img src="img/wishes-2.png" class="img-fluid" alt="">
+                                <div class="wishes__textbox">
+                                    <div class="wishes__inner">
+                                        <div>29 February</div>
+                                        <div>by admin</div>
+                                    </div>
+                                    <div class="wishes__title">Haere's how to get the most out  of a Liverpool city!</div>
+                                    <div class="wishes__text">Travel is the movement of people between relatively distant
+                                        geographical locations, and can involve travel by foot.
+                                    </div>
+                                    <div class="wishes__icons">
+                                        <div class="wishes__item wishes_comment">
+                                            <i class="far fa-comment"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_like">
+                                            <i class="far fa-heart"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_repost">
+                                            <i class="fas fa-share-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div class="wishes__box">
+                                <img src="img/wishes-3.png" class="img-fluid" alt="">
+                                <div class="wishes__textbox">
+                                    <div class="wishes__inner">
+                                        <div>29 February</div>
+                                        <div>by admin</div>
+                                    </div>
+                                    <div class="wishes__title">Haere's how to get the most out  of a Liverpool city!</div>
+                                    <div class="wishes__text">Travel is the movement of people between relatively distant
+                                        geographical locations, and can involve travel by foot.
+                                    </div>
+                                    <div class="wishes__icons">
+                                        <div class="wishes__item wishes_comment">
+                                            <i class="far fa-comment"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_like">
+                                            <i class="far fa-heart"></i>
+                                        </div>
+                                        <div class="wishes__item wishes_repost">
+                                            <i class="fas fa-share-alt"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!--/wishes-->
+
+			<div class="wrapper__bottom">
+                <div class="footer">
+                    <div class="container">
+                        <div class="footer__content">
+                            <div class="row">
+                                <div class="col-12 col-lg-3 col-md-4 col-sm-12">
+                                    <div class="logo">
+                                        <div class="logo__title">D</div>
+                                        <div class="logo__subtitle">r&nbsp;eams</div>
+                                    </div>
+                                    <div class="footer__inner">
+                                        <div class="footer__contacs">
+                                        <div><a href="#">Phone: +91 254 541 254</a></div>
+                                        <div><a href="#">Fax : +44 161 999 8888</a></div>
+                                        <div><a href="#">Email: dreamland@dream.com</a></div>
+                                    </div>
+                                        <div class="social">
+                                        <a href="#" class="icon"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="icon"><i class="fab fa-staylinked"></i></a>
+                                        <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+                                        <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="icon"><i class="fab fa-google-plus-g"></i></a>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3 col-md-3 col-sm-4">
+                                    <div class="footer__items">
+                                        <div class="footer__title"><a href="#">Support</a></div>
+                                        <div class="footer__contacs"><a href="#">Email Contact</a></div>
+                                        <div class="footer__contacs"><a href="#">Help Center</a></div>
+                                        <div class="footer__contacs"><a href="#">Live chat</a></div>
+                                        <div class="footer__contacs"><a href="#">Our Community</a></div>
+                                        <div class="footer__contacs"><a href="#">Services Status</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3 col-md-3 col-sm-4">
+                                    <div class="footer__items">
+                                    <div class="footer__title"><a href="#">Location</a></div>
+                                    <div class="footer__contacs"><a href="#">London</a></div>
+                                    <div class="footer__contacs"><a href="#">Canada</a></div>
+                                    <div class="footer__contacs"><a href="#">America</a></div>
+                                    <div class="footer__contacs"><a href="#">India</a></div>
+                                    <div class="footer__contacs"><a href="#">Australia</a></div>
+                                    </div>
+                                </div>
+                                <div class="col-4 col-lg-3 col-md-2 col-sm-4">
+                                    <div class="footer__items">
+                                    <div class="footer__title"><a href="#">Menu</a></div>
+                                    <div class="footer__contacs"><a href="#">Home</a></div>
+                                    <div class="footer__contacs"><a href="#">About</a></div>
+                                    <div class="footer__contacs"><a href="#">Tours</a></div>
+                                    <div class="footer__contacs"><a href="#">Packages</a></div>
+                                    <div class="footer__contacs"><a href="#">Blog</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__copyright">
+                            <div class="row">
+                                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer__info">&copy;2018 Roy Design All Rights Reserved</div>
+                                </div>
+                                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                                    <div class="footer__menu">
+                                        <div class="footer__item">About Hoststar</div>
+                                        <div class="footer__item">Privacy Policy</div>
+                                        <div class="footer__item">Help Center</div>
+                                        <div class="footer__item">Terms</div>
+                                        <div class="footer__item">Site Map</div>
+                                    </div>
+                                </div>
+                            </div> <!--/row-->
+                        </div> <!--/footer__copyright-->
+                    </div> <!--/container-->
+                </div> <!--/footer-->
+            </div> <!--/wrapper__bottom-->
+		</div> <!--/wrapper-->
+
+<!--            FORM-LOGIN-->
+
+            <form>
+                <div class="form">
+                    <div id="login-form" class="mfp-hide white-popup-block">
+                        <div class="form-login">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-login">Search</button>
+                        </div>
+                     </div>
+                </div>
+            </form>
+
+<!--            FORM-REGISTER-->
+
+        <form>
+            <div class="form">
+                <div id="register-form" class="mfp-hide white-popup-block">
+                    <div class="form-login">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-login">Search</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+
+
+
+	</body>
+	<script src="js/bundle.js"></script>
+	</html>
